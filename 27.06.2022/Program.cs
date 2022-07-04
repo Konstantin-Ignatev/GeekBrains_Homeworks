@@ -27,29 +27,13 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if (number >= 100)
 {
-    
+    string num = Convert.ToString(number);
     Console.WriteLine("третье число: " + GetThirdDigit(number));
 }
 else
 {
      Console.WriteLine("третьего числа нет");
 }
-
-//Альтернативное решение задачи 13
-
-int GetLength(string number)
-{
-    int length = number.Length;
-    return length;
-}
-
-Console.WriteLine("Введите число: ");
-string number = Console.ReadLine();
-int length = number.Length;
-
-if (length > 2)
-Console.Write("третье число: " + number[2]);
-else Console.Write("третьего числа нет");
 
 // Задача 15
 
