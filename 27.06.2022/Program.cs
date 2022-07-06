@@ -7,8 +7,8 @@ int SecondNumber()
     number = Convert.ToInt32(Console.ReadLine());
 
     number = number/10 % 10;
-
-   return number;
+    
+    return number;
 }
 
 Console.WriteLine("Second number is: " + SecondNumber());
