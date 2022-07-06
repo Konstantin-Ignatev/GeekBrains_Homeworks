@@ -6,12 +6,12 @@
 
 void CheckingNumber(string number){
   if (number[0]==number[4] || number[1]==number[3]){
-    Console.WriteLine($"Ваше число: {number} - палиндром.");
+    Console.WriteLine($"Введите пятизначное число: {number} - палиндром.");
   }
   else Console.WriteLine($"Ваше число: {number} - НЕ палиндром.");
 }
 
-Console.Write("Введите число: ");
+Console.Write("Введите пятизначное число: ");
 string number = Console.ReadLine();
 
 if (number.Length == 5)
