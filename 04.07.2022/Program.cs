@@ -2,7 +2,7 @@
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
-
+/*
 int FindSum(int i)
 {
     int sum = 0;
@@ -20,7 +20,7 @@ int FindSum(int i)
 Console.WriteLine("Введите число");
 int i = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Сумма всех цифр в числе равна: " + FindSum(i));
-
+*/
 // Задача 29: Напишите программу, которая задаёт массив из m элементов и выводит их на экран.
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
@@ -43,7 +43,7 @@ void ShowArray(int[] array)
     Console.WriteLine();
 }
 
-Console.Write("Input size of array: ");
+Console.Write("Input size of array from M elements: ");
 int size = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input min possible value of elements: ");
 int min = Convert.ToInt32(Console.ReadLine());
